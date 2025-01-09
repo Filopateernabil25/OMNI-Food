@@ -1,0 +1,128 @@
+
+::-webkit-scrollbar{
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #E67E22;
+    border-radius: 50px;
+}
+#a:hover{
+    color: var(--orange);
+}
+:root{
+    --orange:#E67E22;
+    --black_50:#F4F4F4;
+    --dark:#333333;
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7))
+    ,url(../images/hero.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header section #btnhungry{
+    background-color: var(--orange);
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+header section #btnhungry:hover{
+    background-color: transparent;
+    border: solid 1px var(--orange);
+}
+header section #btnmore{
+    background-color: transparent;
+    border: solid 1px var(--orange);
+    color: var(--orange);
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+header section #btnmore:hover{
+    background-color: var(--orange);
+    color: white;
+}
+header section h1{
+    font-size:100px !important;
+}
+#hr{
+    border: solid 1px var(--orange);
+    width: 10%;
+    margin: auto;
+}
+.container .row i{
+    color: var(--orange);
+}
+.container h2{
+    font-weight: 200;
+}
+.container-fluid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+}
+.container-fluid img{
+    width: 100%;
+    opacity: 0.9;
+}
+.container #phone span{
+    border: solid 1px var(--orange);
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    color: var(--orange);
+}
+#container .row p span{
+    color: var(--orange);
+    text-decoration: underline;
+}
+main{
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+     url(../images/back-customers.jpg);
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+}
+#p{
+    color: var(--orange);
+}
+#btn{
+    padding: 10px 30px ;
+    background-color: var(--orange);
+    color: white;
+    border-radius: 30px;
+}
+#btn:hover{
+    border: solid 1px var(--orange);
+    background-color: transparent;
+    color: var(--orange);
+}
+#btnsgin{
+    padding: 10px 30px ;
+    border: solid 1px var(--orange);
+    color: var(--orange);
+    border-radius: 30px;
+}
+#btnsgin:hover{
+    background-color: var(--orange);
+    color: white;
+}
+.card{
+    border: solid 1px white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.432);
+}
+#Cards{
+    background-color: var(--black_50);
+}
+footer{
+    background-color: var(--dark);
+}
+i:hover{
+    color: var(--orange);
+}
+@media screen and (max-width:800px) {
+    #form{
+        flex-direction: column;
+    }
+    
+}
