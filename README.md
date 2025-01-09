@@ -2,7 +2,8 @@
 OMNI Food Premium Food Delivery 🥓
 
 <br>
-![_C__Users_sh_Desktop_OMNI-Food_admin_index html](https://github.com/user-attachments/assets/414b1ca9-b307-41d7-88bc-a8921811c80c)
+
+![_C__Users_sh_Desktop_OMNI-Food_admin_index html](https://github.com/user-attachments/assets/7f665303-99b6-4707-9143-fd5fe1c6278f)
 
 <br>
 
